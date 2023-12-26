@@ -1,0 +1,39 @@
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+.containers>div{
+    background-color: rgb(16, 15, 14);
+    color: white;
+    font-size: larger;
+    text-align: center;
+    
+    
+}
+
+.main{
+    display: grid;
+
+    background-color: ;
+}
+.containers{
+    background-color: rgba(128, 128, 128, 0.078);
+}
+body{
+	background: linear-gradient(-45deg, #a59e9c9a, #f0c0d683, #a3dbefa8, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height:100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
